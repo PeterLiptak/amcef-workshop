@@ -11,7 +11,7 @@ Na workshop budete potrebovať:
 ## Lokálny server
 Na tvorbu webových stránok je nutné mať na lokálnom stroji funknčný lokálny server. Je možné si ho nasetupovať ručne na všetkých OS, ale ja odporúčam stiahnuť program, ktorý to za vás vyrieši a stará sa o všetky nastavenia.
 
-Odporúčam [Wamp](http://www.wampserver.com/en/#download-wrapper). Počas inštalácie nie je potrebné nič meniť.
+Odporúčam [Wamp](http://www.wampserver.com/en/#download-wrapper). Počas inštalácie nie je potrebné nič meniť. Počas inštalácie stačí ponechať default nastavenia.
 
 ## Git
 Projekt, ktorý budeme vytvárať bude umiestnený v mojom verejnom repozitáry na Githube. Je preto nutné aby ste mali lokálne rozbehaný Git.
@@ -24,4 +24,7 @@ Počas práce budeme používať NPM. NPM je súčasťou inštalácie Node.js, p
 Odporúčam najnovšiu verziu [Node.js (9.8.0 Current)](https://nodejs.org/en/) pre správnu funkčnosť a kompatibilitu.
 
 ## Composer
+## Composer
+:exclamation: Na tento krok je už potrebné mať nainštalovaný lokálny server, kvôli tomu, že Composer potrebuje uviesť umiestnenie PHP. :exclamation:
+
 [Composer](https://getcomposer.org/download/) je package manager pre jazyk PHP. Na Windows je možné stiahnuť .exe wizard. Na iné OS je to trochu horšie. :smile:
