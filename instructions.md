@@ -5,7 +5,7 @@
 
 2. Create Laravel project
 
-    laravel new blog
+    laravel new
 
 4. Install node modules
 
