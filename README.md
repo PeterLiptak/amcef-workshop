@@ -5,7 +5,7 @@ Na workshop budete potrebovať:
 1. kvalitný editor *(Napríklad [Visual Studio Code](https://code.visualstudio.com/):heart:, [Atom](https://atom.io/) alebo [Sublime Text](https://www.sublimetext.com/3))*
 2. [Lokálny server](#lokálny-server) *(napr. [Wamp](http://www.wampserver.com/en/#download-wrapper):heart:, [Xampp](https://www.apachefriends.org/index.html))* 
 3. [Git](#git)
-4. [Node.js & NPM](#nodejs-npm)
+4. [Node.js & NPM](#nodejs--npm)
 5. [Composer](#composer)
 
 ## Lokálny server
