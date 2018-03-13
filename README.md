@@ -24,7 +24,6 @@ Počas práce budeme používať NPM. NPM je súčasťou inštalácie Node.js, p
 Odporúčam najnovšiu verziu [Node.js (9.8.0 Current)](https://nodejs.org/en/) pre správnu funkčnosť a kompatibilitu.
 
 ## Composer
-## Composer
 :exclamation: Na tento krok je už potrebné mať nainštalovaný lokálny server, kvôli tomu, že Composer potrebuje uviesť umiestnenie PHP. :exclamation:
 
 [Composer](https://getcomposer.org/download/) je package manager pre jazyk PHP. 
