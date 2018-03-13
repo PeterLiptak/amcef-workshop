@@ -12,10 +12,8 @@
     <title>Blog</title>
 </head>
 <body>
-   <ul>
-        @foreach ($posts as $post)
-            <li>{{ $post }}</li>
-        @endforeach
-   </ul>
+    <h1>{{ $post->title }}</h1>
+    <p>{{ $post->body }}</p>
 </body>
 </html>
+

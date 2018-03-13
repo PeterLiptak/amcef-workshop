@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+
+use Faker\Factory as Faker;
 
 class DatabaseSeeder extends Seeder
 {
@@ -11,6 +14,16 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
+        $faker = Faker::create();
+
+        foreach ((range(1, 10)) as $index) {
+            DB::table('posts')->insert(
+                [
+                    'title' => 'Post' . $index,
+                    'body' => $faker->text,
+                    'created_at' => $faker->dateTimeBetween($startDate = '-2 months', $endDate = 'now')
+                ]
+            );
+        }
     }
 }

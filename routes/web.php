@@ -11,6 +11,23 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+
+// Blog routes
+Route::get('/', 'PostsController@index');
+
+Route::get('/posts/{id}', function ($id) {
+
+    $post = DB::table('posts')->find($id);
+
+    return view('post', compact('post'));
+});
+
+// Admin routes
+Route::group(['prefix' => 'admin'], function() {
+
+    Route::get('/', 'adminController@index');
+
+    Route::get('/posts/data', 'PostsController@data');
+
+    Route::get('/posts/{id}/edit', 'PostsController@edit');
 });
