@@ -11,7 +11,7 @@ Na workshop budete potrebovať:
 ## Lokálny server
 Na tvorbu webových stránok je nutné mať na lokálnom stroji funknčný lokálny server. Je možné si ho nasetupovať ručne na všetkých OS, ale ja odporúčam stiahnuť program, ktorý to za vás vyrieši a stará sa o všetky nastavenia.
 
-Odporúčam [Wamp](http://www.wampserver.com/en/#download-wrapper). Počas inštalácie nie je potrebné nič meniť. Počas inštalácie stačí ponechať default nastavenia.
+Odporúčam [Wamp](http://www.wampserver.com/en/#download-wrapper). Počas inštalácie nie je potrebné nič meniť. Počas inštalácie stačí ponechať default nastavenia. Snažte sa aby ste mali najnovšie php >= 7.2.
 
 ## Git
 Projekt, ktorý budeme vytvárať bude umiestnený v mojom verejnom repozitáry na Githube. Je preto nutné aby ste mali lokálne rozbehaný Git.
