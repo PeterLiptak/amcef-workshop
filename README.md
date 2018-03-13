@@ -16,7 +16,7 @@ Odporúčam [Wamp](http://www.wampserver.com/en/#download-wrapper). Počas inšt
 ## Git
 Projekt, ktorý budeme vytvárať bude umiestnený v mojom verejnom repozitáry na Githube. Je preto nutné aby ste mali lokálne rozbehaný Git.
 
-Odporúčam oficiálny [git Bash](https://git-scm.com/downloads). Počas inštalácie ponechajte default nastavenia.
+Odporúčam oficiálny [git Bash](https://git-scm.com/downloads) alebo [git](https://gist.github.com/derhuerst/1b15ff4652a867391f03#file-linux-md). Počas inštalácie ponechajte default nastavenia.
 
 ## Node.js & NPM
 Počas práce budeme používať NPM. NPM je súčasťou inštalácie Node.js, preto je nutné ho nainštalovať.
@@ -27,4 +27,4 @@ Odporúčam najnovšiu verziu [Node.js (9.8.0 Current)](https://nodejs.org/en/) 
 ## Composer
 :exclamation: Na tento krok je už potrebné mať nainštalovaný lokálny server, kvôli tomu, že Composer potrebuje uviesť umiestnenie PHP. :exclamation:
 
-[Composer](https://getcomposer.org/download/) je package manager pre jazyk PHP. Na Windows je možné stiahnuť .exe wizard. Na iné OS je to trochu horšie. :smile:
+[Composer](https://getcomposer.org/download/) je package manager pre jazyk PHP. 
